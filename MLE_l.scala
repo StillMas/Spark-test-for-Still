@@ -7,4 +7,4 @@ val theta=max_x-min_x
 val upper=mu+theta/2
 val lower=mu-theta/2
 
-println("according to MLE, data~U(@upper,@lower)")
+println(s"according to MLE, data~U($upper,$lower)")
